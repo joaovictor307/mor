@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100..800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Hand+Pre:wght@400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&display=swap');
+
+body {
+    margin: 0;
+    background: #f0f0f0;
+    overflow: hidden;
+  }
+  
+  .hearts {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .hearts span {
+    position: absolute;
+    top: -50px;
+    font-size: 30px;
+    animation: fall linear infinite;
+    opacity: 0.8;
+  }
+  
+  /* Animação de queda */
+  @keyframes fall {
+    to {
+      transform: translateY(110vh) rotate(360deg);
+      opacity: 0.3;
+    }
+  }
+  
+  /* Corações personalizados com tempos e posições diferentes */
+  .hearts span:nth-child(1) {
+    left: 10%;
+    animation-duration: 5s;
+    animation-delay: 0s;
+  }
+  
+  .hearts span:nth-child(2) {
+    left: 30%;
+    animation-duration: 7s;
+    animation-delay: 1s;
+  }
+  
+  .hearts span:nth-child(3) {
+    left: 50%;
+    animation-duration: 6s;
+    animation-delay: 2s;
+  }
+  
+  .hearts span:nth-child(4) {
+    left: 70%;
+    animation-duration: 8s;
+    animation-delay: 0.5s;
+  }
+  
+  .hearts span:nth-child(5) {
+    left: 90%;
+    animation-duration: 4s;
+    animation-delay: 1.5s;
+  }
+  
+
+body{
+    background-color: rgb(250, 217, 223);
+}
+nav{
+    background-color: cornflowerblue;
+    text-align: center;
+}
+a{
+    padding: 70px;
+    font-size: 20px;
+    text-decoration: none ;
+    font-style: italic;
+}
+h1{
+    color: rgb(255, 132, 132);
+    text-align: center;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal;
+      
+      
+}
+img{
+    width: 200px;
+    height: 300px;
+}
+div.img{
+    text-align: center;
+}
+.love-counter {
+    font-family: Arial, sans-serif;
+    font-size: 24px;
+    color: #e91e63;
+    text-align: center;
+    margin-top: 50px;
+    
+  }
+
+    #time-together{
+        font-size: 20px;
+    }
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  h2.obj{
+    color: rgb(221, 0, 37);
+    text-align: center;
+    font-style: italic;
+
+  }
+
+  h3{
+    text-align: center;
+  }
+
+ h4{
+  text-align: center;
+ }
+ p{
+  text-align: center;
+ }
+
+  li{
+    padding-top: 20px;
+    font-size: 15px;
+    font-family:"Martian mono" ;
+  }
+
+  .audio{
+    background-color:rgb(250, 217, 223) ;
+    text-align: center;
+  }
+  
+  div.galeria{
+    h3{
+      color: rgb(255, 132, 132);
+      text-align: center;
+      font-family: "Edu NSW ACT Hand Precursive";
+      font-weight: 400;
+      font-style: normal;
+    }
+    img{
+      margin-left: 15px;
+      border-radius: 15%;
+    }
+    
+  }
+
+  h4.gale{
+    text-align: center;
+    font-family: "Edu NSW ACT Hand Cursive", sans-serif;
+  }
